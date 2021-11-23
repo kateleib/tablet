@@ -469,10 +469,11 @@ h2{
         border-radius: 15px;
     }
     
-    .headspacetext, .tentext, .calmtext{
+    .headspacetext, .tentext, .calmtext {
         justify-content: center;
         align-content: center;
         text-align: center;
         vertical-align: auto;
         padding: 5px;
     }
+}
