@@ -355,7 +355,7 @@ h2{
 .headspace{
     grid-column: 1;
     grid-row: 1;
-    background: url(../poses/child.PNG);
+    background: url(../headspace.png);
     background-size: cover;
 }
 
@@ -364,12 +364,13 @@ h2{
     grid-row: 1;
     background: white;
     background-size: cover;
+    border-radius: 10px;
 }
 
 .calm{
     grid-column: 3;
     grid-row: 2;
-    background: url(../poses/child.PNG);
+    background: url(../calmlogo.png);
     background-size: cover;
 }
 
@@ -383,7 +384,7 @@ h2{
 .ten{
     grid-column: 1;
     grid-row: 3;
-    background: url(../poses/child.PNG);
+    background: url(../ten.jpg);
     background-size: cover;
 }
 
