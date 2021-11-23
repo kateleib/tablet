@@ -1,0 +1,341 @@
+header{
+    background-color: #C1C2AD;
+    font-family: Gotham, serif;
+    color: black;
+    height: 70px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+nav li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	background-color:white;
+	padding: 8px 9px 8px 9px;
+	display: inline;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.homeli{
+    background-color: #E3CFF7;
+    border: 3px solid black;
+}
+
+.flowsli{
+    background-color: #E3CFF7;
+    border: 3px solid black;
+}
+
+.studiosli{
+    background-color: #E3CFF7;
+    border: 3px solid black;
+}
+
+.mindfulnessli{
+    background-color: #E3CFF7;
+    border: 3px solid black;
+}
+
+body{
+    background-color: #E9E6E2;
+}
+
+h1{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #362511;
+    font-family: Karla, cursive;
+}
+
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    padding: 10px;
+}
+
+#lotus{
+    display: flex;
+    max-height: 280px;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefits{
+    display: flex;
+    display: block;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    font-family: Gotham;
+    font-size: 20px;
+    padding: 45px 60px;
+}
+
+.benefits ul{
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+}
+
+.benefits li{
+    padding: 10px;
+}
+
+main h2{
+    display: flex;
+    font-family: Karla, serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+main p{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-family: Gotham, serif;
+    font-size: 18px;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #535E4B ;
+    color: white;
+    font-weight: bold;
+    font-family: Gotham, serif;
+    position: static;
+    margin-top: 0;
+}
+
+.flow{
+    display: flex;
+    display: block;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    font-family: Gotham, serif;
+    background-color:white;
+    font-size: 20px;
+    padding: 45px 60px;
+}
+
+.flow ul{
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px;
+    list-style-type: none;
+}
+
+.flow li{
+    padding: 10px;
+}
+
+main img{
+    display: flex;
+    padding: 10px;
+    max-height: 280px;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid1 {
+    display: grid;
+    width: 90%;
+    padding: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    font-family: Gotham, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row: 1;
+    background: url(../poses/child.PNG);
+    background-size: cover;
+}
+
+.box2 {
+    grid-column: 2;
+    grid-row: 1;
+    background: url(../poses/downward.jpg);
+    background-size: cover;
+}
+
+.box3 {
+    grid-column: 3;
+    grid-row: 1;
+    background: url(../poses/cobra.jpg);
+    background-size: cover;
+}
+
+.box4 {
+    grid-column: 1;
+    grid-row: 2;
+    background: url(../poses/plank.jpg);
+    background-size: cover;
+}
+
+.box5 {
+    grid-column: 2;
+    grid-row: 2;
+    background: url(../poses/warrior1.jpg);
+    background-size: cover;
+    height: 80%;
+}
+
+.box6 {
+    grid-column: 3;
+    grid-row: 2;
+    background: url(../poses/extendedside.jpg);
+    background-size: cover;
+}
+
+.box7 {
+    grid-column: 1;
+    grid-row: 3;
+    background: url(../poses/reversewar.jpg);
+    background-size: cover;
+}
+
+.box8 {
+    grid-column: 2;
+    grid-row: 3;
+    background: url(../poses/airplane.jpg);
+    background-size: cover;
+}
+
+.box9 {
+    grid-column: 3;
+    grid-row: 3;
+    background: url(../poses/tree.PNG);
+    background-size: cover;
+}
+
+.grid1 > div{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    height: 130px;
+    width: 130px;
+}
+
+div p{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.studio {
+    display: grid;
+    width: 85%;
+    padding: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    font-family: Gotham, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box1s {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.box2s {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.box3s {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.box4s {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box5s {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.box6s {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#poses{
+    width: 70%;
+}
+
+.studios header{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.studios > header{
+    background-color: #E9E6E2;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E9E6E2;
+}
+
+
+.studios img{
+    display: block;
+}
+
+.studios p{
+    display: block;
+    padding-bottom: 30px;
+}
