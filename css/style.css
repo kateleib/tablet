@@ -63,6 +63,8 @@ h1{
     font-size: 50px;
     color: #362511;
     font-family: Karla, cursive;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p{
@@ -111,6 +113,8 @@ main h2{
     align-items: center;
     text-align: center;
     margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main p{
@@ -118,6 +122,7 @@ main p{
     text-align: center;
     justify-content: center;
     align-content: center;
+    align-self: center;
     font-family: Gotham, serif;
     font-size: 18px;
     padding: 10px;
@@ -416,6 +421,13 @@ h2{
     padding: 5px;
 }
 
+#appdiv{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 760px) {
     .apps {
         display: grid;
@@ -427,7 +439,9 @@ h2{
         font-family: Gotham, serif;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20px;
+        align-self: center;
+        justify-content: center;
+        margin-bottom: -80px;
     }
 
     .headspace{
@@ -481,6 +495,8 @@ h2{
         background: white;
         background-size: cover;
         border-radius: 15px;
+        margin-bottom: 100px;
+        padding-bottom: 100px;
     }
     
     .headspacetext, .tentext, .calmtext {
@@ -489,6 +505,7 @@ h2{
         text-align: center;
         vertical-align: auto;
         padding: 5px;
+        max-width: 400px;
     }
 
     footer{
@@ -498,5 +515,6 @@ h2{
         position: fixed;
         bottom: 0;
         width: 100%;
+        margin-bottom: -10px;
     }
 }
