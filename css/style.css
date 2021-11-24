@@ -85,7 +85,6 @@ p{
 }
 
 .benefits{
-    display: flex;
     display: block;
     text-align: left;
     justify-content: center;
@@ -141,7 +140,6 @@ footer{
 }
 
 .flow{
-    display: flex;
     display: block;
     text-align: left;
     justify-content: center;
