@@ -433,6 +433,7 @@ h2{
 }
 
 @media only screen and (max-width: 760px) {
+
     .apps {
         display: grid;
         width: 90%;
@@ -524,4 +525,15 @@ h2{
         width: 100%;
         margin-bottom: -10px;
     }
+    
+    header{
+        min-height: 190px;
+    }
+    nav li{
+        border-radius: 50px;
+        display: block;
+        align-self: auto;
+        background-color: #C1C2AD;
+    }
+    
 }
