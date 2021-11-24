@@ -365,8 +365,8 @@ h2{
 .headspace{
     grid-column: 1;
     grid-row: 1;
-    min-height: 170px;
-    min-width: 170px;
+    min-height: 160px;
+    min-width: 160px;
     background: url(../headspace.png);
     background-size: cover;
     display: inline;
