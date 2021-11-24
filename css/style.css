@@ -352,7 +352,7 @@ h2{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     column-gap: 30px;
-    row-gap: 10px;
+    row-gap: 40px;
     font-family: Gotham, serif;
     margin-left: auto;
     margin-right: auto;
@@ -523,7 +523,6 @@ h2{
         position: fixed;
         bottom: 0;
         width: 100%;
-        margin-bottom: -10px;
     }
     
     header{
